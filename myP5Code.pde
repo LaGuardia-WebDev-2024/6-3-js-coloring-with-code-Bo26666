@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(127, 109, 191)
 }
 
 
@@ -14,16 +14,19 @@ void draw(){
   
   // The ground
   rect(0, 300, 400, 100);  
-
+ fill(237, 198, 57)
   // The sun
   ellipse(80, 64, 100, 100);  
-
+fill(255, 255, 255)
   // The snowman
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
-
+  fill(0,0,0)
+   // Hat
+ellipse(200, 75, 50, 50);
+rect(160,80, 80,25)
 }
 
 //🟡Extra FUN Features Ms. Hall Added
